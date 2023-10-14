@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+}
+.bottom{
+    height: 100%;
+    width: 100%;
+    
+}
+.top{
+    margin-left: 5%;
+    pointer-events: none;
+    position:absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 90%;
+    max-width: 1600px;
+}
+.nav{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+.nav .nleft{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.nav .nright{
+    display: flex;
+    gap: 30px;
+}
+.nav img{
+    height: 50px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    pointer-events: all;
+}
+.hero{
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.hero .left{
+    height: 90vh;
+    width: 40vw;
+    /* background-color: aquamarine; */
+}
+
+.hero .right{
+    height: 90vh;
+    width: 17vw;
+    /* background-color: rgb(25, 30, 98); */
+}
+
+.hero{
+    margin-top: 10vw;
+}
+.left .elem{
+   position: relative;
+    overflow: hidden;
+    height: 9vw;
+    
+    /* background-color: cornflowerblue; */
+}
+.left .elem h1:nth-child(1){
+    top: 0;
+}
+.left .elem h1{
+
+    position: absolute;
+    top: 100%;
+    color: white;
+    font-weight: 100;
+    font-size: 11vw;
+    font-family: 'kajiro';
+    line-height: .9;
+}
+.left button{
+    pointer-events: all;
+    text-transform: uppercase;
+    background-color: white;
+    font-family: 'kajiro';
+    font-size: 3vw;
+    padding: 15px;
+    width: 14vw;
+    text-align: center;
+    margin-top: 1vw;
+    
+}
+.right {
+    color: white;
+    text-align: right;
+    font-size: 14px;
+}
+.right .imgdiv{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    height: 22vh;
+    width: 100%;
+    
+  
+}
+.right img {
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+   
+   
+}
+
+.hero p:nth-child(3){
+    margin-bottom: 50px;
+}
+
+.bottom img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
